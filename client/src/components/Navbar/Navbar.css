@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.pr1{
+    height: 2.5rem;
+    border:1px;
+    border-bottom: 1px solid grey;
+    background-color:white;
+    
+    display: flex;
+}
+.pr1 .pr4 {
+    margin: 8px 33px 0px 79px;
+    padding: 2px 1px 1px 1px;
+}
+
+.pr1 .pr4:hover{
+    color: rgb(24, 82, 208);
+}
+.pr3{
+
+    display:flex;
+    
+    margin-left: 34rem;
+}
+.pr3 .pr5{
+    width: 2rem;
+    height: 2em;
+    flex-direction: row-reverse;
+    margin: 8px 7px 0px 1px;
+    padding: 2px 1px 1px 1px;
+}
+
+.pr3 .pr5:hover{
+    color:rgb(32, 199, 107);
+}
+
+
+.pr2{
+    height: 5rem;
+    border: 1px solid black;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: flex-end;
+    /* flex-direction: row-reverse; */
+}
+.pr2 img{
+    width: 14rem;
+    height: 4.5rem;
+    margin:2px;
+    /* padding: auto; */
+    float: left;
+    position: relative;
+    /* right:42rem; */
+}
+.pr2 .pr6{
+    margin: 1px 1px 1px 1px;
+    padding:1px 1px 1px 1px;
+}
+nav a:hover{
+    border:1px solid blue;
+    height: 2rem;
+    background-color: rgb(9, 181, 181);
+    border-radius: 0.5rem;
+    color:white;
+
+}
+.py-24{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
